@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 st.title('IE6600 COMPUTATION AND VISUALIZATION PROJECT 2')
-data = pd.read_csv('C:/Users/GIGABITE/Downloads/ida_voting_power_of_member_countries_19-10-2024_edited.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/KwakyeCA/Project2/refs/heads/master/cleaned_ida_voting_power.csv')
 
 columns_to_keep = [
     'Member', 
