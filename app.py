@@ -6,7 +6,7 @@ import altair as alt
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.title('IE6600 COMPUTATION AND VISUALIZATION PROJECT 2')
+st.title('IE6600 COMPUTATION AND VISUALIZATION PROJECT2')
 data = pd.read_csv('https://raw.githubusercontent.com/KwakyeCA/Project2/refs/heads/master/cleaned_ida_voting_power.csv')
 
 columns_to_keep = [
